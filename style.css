@@ -5,7 +5,7 @@
 
 * {
   margin: 0;
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", Sans-serif;
 }
 
 nav {
@@ -48,23 +48,25 @@ li {
   position: relative;
   z-index: 1;
   height: 100vh;
-  background: linear-gradient(
-    180deg,
-    rgb(207, 207, 207) 0%,
-    rgb(226, 226, 226) 35%,
-    rgb(255, 255, 255) 100%
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgb(207, 207, 207) 0%,
+      rgb(226, 226, 226) 35%,
+      rgb(255, 255, 255) 100%
+    );
 }
 
 .body-container h1 {
   width: 70%;
   font-size: 50px;
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background:
+    -webkit-linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -93,9 +95,6 @@ li {
 
 .center-container {
   padding: 100px;
-}
-
-.center-container {
 }
 
 .logo {
@@ -155,15 +154,18 @@ li a {
   .nav-container {
     display: none;
   }
+
   .nav-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .body-container h1 {
     width: 100%;
     font-size: 30px;
   }
+
   .body-container h5 {
     width: 90%;
   }
@@ -172,5 +174,11 @@ li a {
   .body-container h2,
   .body-container h3 {
     padding: 10px 10px 0 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    width: 70%;
   }
 }
