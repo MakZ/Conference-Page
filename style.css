@@ -5,7 +5,7 @@
 
 * {
   margin: 0;
-  font-family: "Cocogoose", Sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 
 nav {
@@ -102,17 +102,17 @@ li {
   font-weight: bold;
 }
 
-.camapaign {
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.campaign {
   border: 3px solid #ec5242;
-  color: #ec5242;
+  color: #ec5242 !important;
   background: white;
   font-weight: bold;
   cursor: pointer;
-}
-
-li a {
-  text-decoration: none;
-  color: black;
 }
 
 .position {
