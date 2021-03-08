@@ -5,7 +5,7 @@
 
 * {
   margin: 0;
-  font-family: "Sans-serif, Cocogoose";
+  font-family: "Cocogoose", Sans-serif;
 }
 
 nav {
@@ -48,25 +48,25 @@ li {
   position: relative;
   z-index: 1;
   height: 100vh;
-  background: 
-  linear-gradient(
-    180deg,
-    rgb(207, 207, 207) 0%,
-    rgb(226, 226, 226) 35%,
-    rgb(255, 255, 255) 100%
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgb(207, 207, 207) 0%,
+      rgb(226, 226, 226) 35%,
+      rgb(255, 255, 255) 100%
+    );
 }
 
 .body-container h1 {
   width: 70%;
   font-size: 50px;
-  background: 
-  -webkit-linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background:
+    -webkit-linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -102,17 +102,17 @@ li {
   font-weight: bold;
 }
 
-.camapaign {
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.campaign {
   border: 3px solid #ec5242;
-  color: #ec5242;
+  color: #ec5242 !important;
   background: white;
   font-weight: bold;
   cursor: pointer;
-}
-
-li a {
-  text-decoration: none;
-  color: black;
 }
 
 .position {
