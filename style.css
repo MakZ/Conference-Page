@@ -8,6 +8,10 @@
   font-family: "Cocogoose", sans-serif;
 }
 
+body {
+  box-sizing: border-box;
+}
+
 nav {
   background-color: white;
   border-bottom: 1px solid #c9c9c9;
@@ -47,26 +51,23 @@ li {
 .body-container {
   position: relative;
   z-index: 1;
-  height: 100vh;
-  background:
-    linear-gradient(
-      180deg,
-      rgb(207, 207, 207) 0%,
-      rgb(226, 226, 226) 35%,
-      rgb(255, 255, 255) 100%
-    );
+  background: linear-gradient(
+    180deg,
+    rgb(207, 207, 207) 0%,
+    rgb(226, 226, 226) 35%,
+    rgb(255, 255, 255) 100%
+  );
 }
 
 .body-container h1 {
   width: 70%;
   font-size: 50px;
-  background:
-    -webkit-linear-gradient(
-      90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%
-    );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -100,6 +101,8 @@ li {
 .logo {
   padding: 10px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 li a {
@@ -124,7 +127,7 @@ li a {
 .position2 {
   position: absolute;
   top: 20%;
-  left: 70%;
+  left: 60%;
 }
 
 .position3 {
@@ -140,6 +143,37 @@ li a {
 .fa-bars {
   color: black;
   z-index: 1;
+}
+
+.container-partner {
+  background-color: #272a31;
+  text-align: center;
+}
+
+.partner {
+  color: #d3d3d3;
+}
+
+.partner h1 {
+  padding: 40px 0 10px 0;
+}
+
+.partner img {
+  padding-bottom: 40px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.copy {
+  justify-content: space-between;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 576px) {
@@ -168,15 +202,30 @@ li a {
 
   .body-container h5 {
     width: 90%;
+    padding: 20px 0 20px 0;
   }
 
-  .body-container h1,
-  .body-container h2,
+  .body-container h2 {
+    padding: 60px 0 0 10px;
+  }
+
+  .body-container h1 {
+    padding-left: 10px;
+    width: 90%;
+  }
+
+  .body-container h5 {
+    padding: 30px 0 30px 30px;
+  }
+
   .body-container h3 {
-    padding: 10px 10px 0 10px !important;
+    padding: 10px 0 60px 10px;
+  }
+
+  .body-container .date {
+    padding: 10px 0 20px 10px;
   }
 }
-
 @media (max-width: 768px) {
   .nav-container {
     width: 70%;
