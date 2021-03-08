@@ -174,3 +174,10 @@ li a {
     padding: 10px 10px 0 10px !important;
   }
 }
+
+@media (max-width: 768px) {
+  .nav-container {
+    width: 70%;
+    margin: none;
+  }
+}
