@@ -82,7 +82,7 @@ li {
   z-index: -1;
 }
 
-.body-container {
+.body-container.gradient {
   position: relative;
   z-index: 1;
   background: linear-gradient(
