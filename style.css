@@ -51,6 +51,11 @@ nav {
   border-bottom: 1px solid #c9c9c9;
 }
 
+.nav-mobile .fas {
+  color: black;
+  padding-right: 20px;
+}
+
 .flex {
   display: flex;
 }
@@ -72,10 +77,6 @@ li {
 .nav-container {
   justify-content: space-between;
   padding: 10px 20px 10px 20px;
-}
-
-.nav-mobile .fas {
-  color: white;
 }
 
 .fa-square-full {
