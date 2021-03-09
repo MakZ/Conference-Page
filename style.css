@@ -8,10 +8,47 @@
   font-family: "Cocogoose", sans-serif;
 }
 
+body {
+  box-sizing: border-box;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-orange {
+  color: #ec5242;
+}
+
+.socials {
+  background-color: #272a31;
+  color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.socials a {
+  color: inherit;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+}
+
+.socials .fab {
+  padding: 5px 10px 5px 10px;
+  margin-top: 3px;
+}
+
+.fas {
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
 nav {
   background-color: white;
   border-bottom: 1px solid #c9c9c9;
-  padding: 10px 20px 10px 20px;
 }
 
 .flex {
@@ -34,9 +71,10 @@ li {
 
 .nav-container {
   justify-content: space-between;
+  padding: 10px 20px 10px 20px;
 }
 
-.fas {
+.nav-mobile .fas {
   color: white;
 }
 
@@ -44,29 +82,26 @@ li {
   z-index: -1;
 }
 
-.body-container {
+.body-container.gradient {
   position: relative;
   z-index: 1;
-  height: 100vh;
-  background:
-    linear-gradient(
-      180deg,
-      rgb(207, 207, 207) 0%,
-      rgb(226, 226, 226) 35%,
-      rgb(255, 255, 255) 100%
-    );
+  background: linear-gradient(
+    180deg,
+    rgb(207, 207, 207) 0%,
+    rgb(226, 226, 226) 35%,
+    rgb(255, 255, 255) 100%
+  );
 }
 
 .body-container h1 {
   width: 70%;
   font-size: 50px;
-  background:
-    -webkit-linear-gradient(
-      90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%
-    );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -100,6 +135,8 @@ li {
 .logo {
   padding: 10px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 li a {
@@ -124,7 +161,7 @@ li a {
 .position2 {
   position: absolute;
   top: 20%;
-  left: 70%;
+  left: 60%;
 }
 
 .position3 {
@@ -140,6 +177,124 @@ li a {
 .fa-bars {
   color: black;
   z-index: 1;
+}
+
+.container-partner {
+  background-color: #272a31;
+  text-align: center;
+}
+
+.partner {
+  color: #d3d3d3;
+}
+
+.partner h1 {
+  padding: 40px 0 10px 0;
+}
+
+.partner img {
+  padding-bottom: 40px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.copy {
+  justify-content: space-between;
+}
+
+.main-program {
+  color: white;
+  padding: 30px 30px 50px;
+  text-align: center;
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3c4M4nma8yRmPP5KbQL9Zj_FLQM9tST1dq0nJ8Ut6g68S-n_s3aWMvsUjRw_BOeVQ3S3dZqz2pG-qvdLnqwUXOOJcZNk8rWRoxRtgGPYLi0fKubB6nPYpPazlzHm_pj4pg9aMcyQCG_TKA3JO7xeCyU=w1665-h913-no?authuser=0");
+}
+
+.main-program .program-panels {
+  flex-wrap: wrap;
+}
+
+.main-program .panel {
+  width: calc(25% - 60px);
+  padding: 20px;
+  margin: 10px;
+}
+
+.panel {
+  background-color: #dddddd2a;
+}
+
+.panel h2 {
+  color: #ec5242;
+  padding: 10px;
+}
+
+.panel h3 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.panel .fas {
+  font-size: 30px;
+}
+
+.main-program .program-h1 {
+  font-size: 32px;
+  padding: 20px;
+}
+
+.featured-speakers .speaker-text h1 {
+  font-size: 20px;
+}
+
+.featured-speakers .speaker-text h2 {
+  font-size: 14px;
+}
+
+.speakers {
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.speakers img {
+  width: 100px;
+  height: 100px;
+}
+
+.speakers-h1 {
+  padding: 20px;
+}
+
+.text-orange {
+  padding-bottom: 10px;
+}
+
+.speaker {
+  width: 40%;
+  padding: 20px 20px 10px 20px;
+}
+
+.speaker-text {
+  padding: 0 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dash {
+  width: 50px;
+  height: 2px;
+  background: #ec5242;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 576px) {
@@ -168,17 +323,42 @@ li a {
 
   .body-container h5 {
     width: 90%;
+    padding: 20px 0 20px 0;
   }
 
-  .body-container h1,
-  .body-container h2,
+  .body-container h2 {
+    padding: 60px 0 0 10px;
+  }
+
+  .body-container h1 {
+    padding-left: 10px;
+    width: 90%;
+  }
+
+  .body-container h5 {
+    padding: 30px 0 30px 30px;
+  }
+
   .body-container h3 {
-    padding: 10px 10px 0 10px !important;
+    padding: 10px 0 60px 10px;
+  }
+
+  .body-container .date {
+    padding: 10px 0 20px 10px;
   }
 }
-
 @media (max-width: 768px) {
   .nav-container {
     width: 70%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .main-program .panel {
+    width: calc(50% - 60px);
+  }
+
+  .speaker {
+    width: 100%;
   }
 }
