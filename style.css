@@ -16,10 +16,6 @@ body {
   text-align: center;
 }
 
-.active {
-  color: #ec5242;
-}
-
 .text-orange {
   color: #ec5242;
 }
@@ -76,6 +72,18 @@ li {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.active {
+  color: #ec5242;
+}
+
+.gray {
+  background: #d3d3d3;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .nav-container {
@@ -345,6 +353,137 @@ li a {
 
 .event-img h3 {
   color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.launch {
+  padding-top: 40px;
+}
+
+.conf-heading {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px 15px 20px;
+}
+
+.rotated-square {
+  width: 7px;
+  height: 7px;
+  background: #ec5242;
+  transform: rotate(45deg);
+}
+
+.rotated-square-4x {
+  width: 40px;
+  height: 40px;
+  background: #ec5242;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotated-square-4x .fas {
+  transform: rotate(-45deg);
+}
+
+.conference .bread-crumb .fas {
+  color: #272a31;
+}
+
+.conference .bread-crumb {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.conference .bread-crumb * {
+  margin: 10px;
+}
+
+.tickets-info-box {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.tickets-info-box * {
+  margin: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.table {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.table * {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ddd;
+}
+
+.row-2 {
+  border-top: 1px solid #ddd;
+}
+
+.row-3 {
+  border-top: 1px solid #ddd;
+}
+
+.row-4 {
+  border-top: 1px solid #ddd;
+}
+
+.row-3 *,
+.row-4 * {
+  height: 80px !important;
+}
+
+.table .col-10 {
+  width: 10%;
+  height: 50px;
+}
+
+.table .col-17-5 {
+  width: 17.5%;
+  height: 50px;
+}
+
+.table .col-20 {
+  width: 20%;
+  height: 50px;
+}
+
+.table .col-35 {
+  width: 35%;
+  height: 50px;
+}
+
+.save {
+  color: white;
+  background: #ec5242;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 30px;
 }
 
 .footer {
