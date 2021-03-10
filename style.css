@@ -16,6 +16,10 @@ body {
   text-align: center;
 }
 
+.active {
+  color: #ec5242;
+}
+
 .text-orange {
   color: #ec5242;
 }
