@@ -18,6 +18,12 @@ body {
 
 .text-orange {
   color: #ec5242;
+  padding-bottom: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .socials {
@@ -157,11 +163,6 @@ li {
   text-decoration: none;
 }
 
-li a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .campaign {
   border: 3px solid #ec5242;
   color: #ec5242 !important;
@@ -233,12 +234,6 @@ li a {
   flex-wrap: wrap;
 }
 
-.main-program .panel {
-  width: calc(25% - 60px);
-  padding: 20px;
-  margin: 10px;
-}
-
 .panel {
   background-color: #dddddd2a;
 }
@@ -255,6 +250,37 @@ li a {
 
 .panel .fas {
   font-size: 30px;
+}
+
+.main-program .panel {
+  width: calc(25% - 60px);
+  padding: 20px;
+  margin: 10px;
+}
+
+.past-gatherings h2 {
+  padding: 40px 20px 15px 20px;
+}
+
+.event-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url("https://lh3.googleusercontent.com/pw/ACtC-3ckFlNE6rX74rnQ4CwLk8QU3Du0h5AdrGEUbbm57WepaPRZ0-6WB0nqoF5yfD2trDQZpdO3_LlbCgG-6XmPbHne2jWAKDYN7Ao5or6wPY9kTtiqfWegHpW2YVBzhZ6TWfknKtV-syZe9PGAXQuBdLwt=w481-h234-no?authuser=0");
+  width: 481px;
+  height: 234px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.event-img h2 {
+  padding: 0;
+}
+
+.event-img h3 {
+  color: white;
 }
 
 .main-program .program-h1 {
@@ -283,10 +309,6 @@ li a {
 
 .speakers-h1 {
   padding: 20px;
-}
-
-.text-orange {
-  padding-bottom: 10px;
 }
 
 .speaker {
@@ -321,38 +343,12 @@ li a {
 .about-box {
   border: 1px solid #ddd;
   padding: 30px;
+  position: relative;
+  background: white;
 }
 
 .container-about .email-heading {
   padding: 40px 20px 5px 20px;
-}
-
-.past-gatherings h2 {
-  padding: 40px 20px 15px 20px;
-}
-
-.past-gatherings img {
-}
-
-.event-img {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
-    url("https://lh3.googleusercontent.com/pw/ACtC-3ckFlNE6rX74rnQ4CwLk8QU3Du0h5AdrGEUbbm57WepaPRZ0-6WB0nqoF5yfD2trDQZpdO3_LlbCgG-6XmPbHne2jWAKDYN7Ao5or6wPY9kTtiqfWegHpW2YVBzhZ6TWfknKtV-syZe9PGAXQuBdLwt=w481-h234-no?authuser=0");
-  width: 481px;
-  height: 234px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
-}
-
-.event-img h2 {
-  padding: 0;
-}
-
-.event-img h3 {
-  color: white;
 }
 
 .center {
@@ -391,21 +387,6 @@ li a {
 
 .rotated-square-4x .fas {
   transform: rotate(-45deg);
-}
-
-.conference .bread-crumb .fas {
-  color: #272a31;
-}
-
-.conference .bread-crumb {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 30px;
-}
-
-.conference .bread-crumb * {
-  margin: 10px;
 }
 
 .tickets-info-box {
@@ -478,6 +459,21 @@ li a {
   height: 50px;
 }
 
+.conference .bread-crumb .fas {
+  color: #272a31;
+}
+
+.conference .bread-crumb {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.conference .bread-crumb * {
+  margin: 10px;
+}
+
 .save {
   color: white;
   background: #ec5242;
@@ -492,15 +488,6 @@ li a {
   align-items: center;
 }
 
-.about-footer {
-  background: #272a31;
-  color: white;
-  padding: 100px;
-}
-
-.about-footer {
-}
-
 .footer-content {
   justify-content: center;
   display: flex;
@@ -513,11 +500,6 @@ li a {
   padding-left: 10px;
 }
 
-.about-box {
-  position: relative;
-  background: white;
-}
-
 .about-box .position {
   position: absolute;
   top: -30%;
@@ -525,6 +507,12 @@ li a {
   border: 1px solid #dee2e6;
   background: white;
   z-index: -1;
+}
+
+.about-footer {
+  background: #272a31;
+  color: white;
+  padding: 100px;
 }
 
 @media (max-width: 576px) {
@@ -549,24 +537,16 @@ li a {
   .body-container h1 {
     width: 100%;
     font-size: 30px;
+    padding-left: 10px;
   }
 
   .body-container h5 {
     width: 90%;
-    padding: 20px 0 20px 0;
+    padding: 30px 0 30px 30px;
   }
 
   .body-container h2 {
     padding: 60px 0 0 10px;
-  }
-
-  .body-container h1 {
-    padding-left: 10px;
-    width: 90%;
-  }
-
-  .body-container h5 {
-    padding: 30px 0 30px 30px;
   }
 
   .body-container h3 {
