@@ -12,8 +12,13 @@ body {
   box-sizing: border-box;
 }
 
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 a:hover {
-cursor:pointer
+  cursor: pointer;
 }
 
 .text-align-center {
@@ -23,11 +28,6 @@ cursor:pointer
 .text-orange {
   color: #ec5242;
   padding-bottom: 10px;
-}
-
-li a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .socials {
