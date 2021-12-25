@@ -12,13 +12,33 @@ body {
   box-sizing: border-box;
 }
 
-#mover, #mover2, #mover3 {
+#mover {
     animation: mover 8s linear infinite;
+}
+
+#mover2 {
+    animation: mover2 8s linear infinite;
+}
+
+#mover3 {
+    animation: mover3 8s linear infinite;
 }
 
 @keyframes mover {
     100% {
-        transform: translateX(105vh);
+        transform: translateX(110vh);
+  }
+}
+
+@keyframes mover2 {
+    100% {
+        transform: translateX(160vh);
+  }
+}
+
+@keyframes mover3 {
+    100% {
+        transform: translateX(170vh);
   }
 }
 
