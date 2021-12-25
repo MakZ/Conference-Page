@@ -12,6 +12,18 @@ body {
   box-sizing: border-box;
 }
 
+#mover {
+    position: fixed;
+    transform: translateX(0);
+    animation: mover 3s linear forwards;
+}
+
+@keyframes mover {
+    to {
+        transform: translateX(105vh);
+    }
+}
+
 li a {
   text-decoration: none;
   color: inherit;
