@@ -4,11 +4,11 @@
 
 The Event Website
 
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3fZURxaMtdKv9xsuUrd_SknycP46-wMC1oW7y88jTR9smcRZqhatWEuwTYpOAFsIAeqq-UsMd8MyXDxtedEUSVIoBU_VdRtOEeBuzWBNIP9ughZOgm1Gvuy_LenopezZoeshbkhUc9iLIDy_FUAHyx8=w1920-h937-no?authuser=0">
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLVxQk-e73GTCOvz7decCF6OHdWRWrybW74MzQOfqxvHuVewroEXpqNInnDwwk8fDOfx9BcztwgMjmNh1nzZix6oGUSfUNJWf5-v5gycuWOV5qZxvSi5af-E_F5vbKzGUGqP9wNqPntXOV0292ZiKp3N=w1901-h937-no?authuser=0">
 
 ## Built With
 
-- HTML, CSS & Bootstrap
+- HTML, CSS
 
 ## Authors
 
