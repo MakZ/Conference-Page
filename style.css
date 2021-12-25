@@ -12,15 +12,20 @@ body {
   box-sizing: border-box;
 }
 
-#mover {
-    transform: translateX(0);
+#mover, #mover2, #mover3 {
     animation: mover 5s linear infinite;
 }
 
 @keyframes mover {
-    to {
+    50% {
         transform: translateX(105vh);
     }
+    75% {
+        transform: translateX(-50vh);
+  }
+    100% {
+        transform: translateX(105vh);
+  }
 }
 
 li a {
