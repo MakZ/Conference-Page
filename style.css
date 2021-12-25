@@ -211,14 +211,14 @@ li {
 
 .position {
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 0;
   transform: translateX(-5vw);
 }
 
 .position2 {
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 0;
   transform: translateX(-5vw);
 }
