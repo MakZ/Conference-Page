@@ -13,16 +13,10 @@ body {
 }
 
 #mover, #mover2, #mover3 {
-    animation: mover 5s linear infinite;
+    animation: mover 8s linear infinite;
 }
 
 @keyframes mover {
-    50% {
-        transform: translateX(105vh);
-    }
-    75% {
-        transform: translateX(-50vh);
-  }
     100% {
         transform: translateX(105vh);
   }
@@ -199,18 +193,21 @@ li {
   position: absolute;
   top: 40%;
   left: 10%;
+  transform: translateX(-10vh);
 }
 
 .position2 {
   position: absolute;
   top: 20%;
   left: 60%;
+  transform: translateX(-60vh);
 }
 
 .position3 {
   position: absolute;
   top: 70%;
   left: 70%;
+  transform: translateX(-70vh);
 }
 
 .nav-mobile {
