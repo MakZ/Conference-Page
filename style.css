@@ -212,21 +212,21 @@ li {
 .position {
   position: absolute;
   top: 40%;
-  left: 10%;
+  left: 0;
   transform: translateX(-10vh);
 }
 
 .position2 {
   position: absolute;
   top: 20%;
-  left: 60%;
+  left: 0;
   transform: translateX(-60vh);
 }
 
 .position3 {
   position: absolute;
   top: 70%;
-  left: 70%;
+  left: 0;
   transform: translateX(-70vh);
 }
 
