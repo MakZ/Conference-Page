@@ -13,7 +13,7 @@ body {
 }
 
 #mover {
-    animation: mover 8s linear infinite;
+    animation: mover 9s linear infinite;
 }
 
 #mover2 {
@@ -21,24 +21,24 @@ body {
 }
 
 #mover3 {
-    animation: mover3 8s linear infinite;
+    animation: mover3 7s linear infinite;
 }
 
 @keyframes mover {
     100% {
-        transform: translateX(110vh);
+        transform: translateX(105vw);
   }
 }
 
 @keyframes mover2 {
     100% {
-        transform: translateX(160vh);
+        transform: translateX(105vw);
   }
 }
 
 @keyframes mover3 {
     100% {
-        transform: translateX(170vh);
+        transform: translateX(105vw);
   }
 }
 
@@ -213,21 +213,21 @@ li {
   position: absolute;
   top: 40%;
   left: 0;
-  transform: translateX(-10vh);
+  transform: translateX(-5vw);
 }
 
 .position2 {
   position: absolute;
   top: 20%;
   left: 0;
-  transform: translateX(-60vh);
+  transform: translateX(-5vw);
 }
 
 .position3 {
   position: absolute;
   top: 70%;
   left: 0;
-  transform: translateX(-70vh);
+  transform: translateX(-5vw);
 }
 
 .nav-mobile {
