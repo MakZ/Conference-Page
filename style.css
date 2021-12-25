@@ -13,9 +13,8 @@ body {
 }
 
 #mover {
-    position: fixed;
     transform: translateX(0);
-    animation: mover 3s linear forwards;
+    animation: mover 5s linear infinite;
 }
 
 @keyframes mover {
