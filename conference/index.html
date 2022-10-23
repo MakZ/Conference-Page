@@ -16,6 +16,31 @@
   </head>
   <body>
     <nav>
+		<section id="navigation" class="mobile-nav">
+    <div class="navbar-wrapper">
+<div class="navbar-logo-wrapper"></div>
+      <!-- NAVBAR LINKS -->
+	  		<div class="btn-burger2" id="btn-menu2">
+        <i class="fas fa-bars"></i></div>
+      <div class="nav-links">
+        <ul>
+          <li class="link-item">
+            <a href="/" onclick="showSection()">
+              <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z" fill="currentColor"></path>
+              </svg>Home
+            </a>
+          </li>
+        </ul>
+		 <div class="container">
+          <ul class="text-center">
+            <li class="link-item"><a href="/about">About</a></li>
+            <li class="link-item"><a href="/conference">Conference</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
       <div class="socials">
         <div class="container">
           <div class="social-links">
@@ -28,7 +53,8 @@
       </div>
       <div class="nav-mobile">
         <div class="logo">Conference Summit ツ</div>
-        <i class="fas fa-bars"></i>
+        <div class="btn-burger" id="btn-menu">
+        <i class="fas fa-bars"></i></div>
       </div>
       <div class="container flex nav-container">
         <div class="logo">
@@ -115,5 +141,24 @@
         <div class="copy">2021 Creative Ideas. Some Rights Reserved.</div>
       </div>
     </footer>
+		  <script>
+  
+const btn = document.getElementById("btn-menu");
+const nav = document.getElementById("navigation");
+
+btn.addEventListener("click", () => {
+    nav.classList.toggle("active");
+    btn.classList.toggle("active");
+});
+
+const btn2 = document.getElementById("btn-menu2");
+
+btn2.addEventListener("click", () => {
+    nav.classList.toggle("active");
+    btn.classList.toggle("active");
+});
+  
+  
+  </script>
   </body>
 </html>
